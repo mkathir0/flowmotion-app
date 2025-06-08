@@ -12,9 +12,11 @@ export default function ContactPage() {
         boxShadow: "0 0 15px rgba(0, 255, 225, 0.2)",
       }}
     >
-      <h1 style={{ color: "#00ffe1", marginBottom: "1rem" }}>Contact Us</h1>
+      <h1 style={{ color: "#00ffe1", marginBottom: "1rem" }}>
+        Contact FlowMotion
+      </h1>
       <p style={{ marginTop: "1rem", color: "#ccc", fontSize: "1.1rem" }}>
-        Got questions?, Reach out to me in mail
+        Have questions? Just drop me an email.
       </p>
       <ul
         style={{
@@ -37,7 +39,6 @@ export default function ContactPage() {
         <li>
           <strong style={{ color: "#00ffe1" }}>Instagram:</strong>{" "}
           <a
-            
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
@@ -48,7 +49,6 @@ export default function ContactPage() {
         <li>
           <strong style={{ color: "#00ffe1" }}>Twitter:</strong>{" "}
           <a
-            
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
