@@ -37,7 +37,7 @@ export default function ContactPage() {
         <li>
           <strong style={{ color: "#00ffe1" }}>Instagram:</strong>{" "}
           <a
-            href="https://instagram.com/flowmotion_editing"
+            
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
@@ -48,7 +48,7 @@ export default function ContactPage() {
         <li>
           <strong style={{ color: "#00ffe1" }}>Twitter:</strong>{" "}
           <a
-            href="https://twitter.com/flowmotion_ai"
+            
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
