@@ -14,7 +14,7 @@ export default function ContactPage() {
     >
       <h1 style={{ color: "#00ffe1", marginBottom: "1rem" }}>Contact Us</h1>
       <p style={{ marginTop: "1rem", color: "#ccc", fontSize: "1.1rem" }}>
-        Got questions, feedback, or want to collaborate? Reach out to us!
+        Got questions?, Reach out to me in mail
       </p>
       <ul
         style={{
@@ -28,10 +28,10 @@ export default function ContactPage() {
         <li>
           <strong style={{ color: "#00ffe1" }}>Email:</strong>{" "}
           <a
-            href="mailto:flowmotion@support.ai"
+            href="mailto:flowmotion@gmail.com"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
           >
-            flowmotion@support.ai
+            flowmotion@gmail.com
           </a>
         </li>
         <li>
@@ -42,7 +42,7 @@ export default function ContactPage() {
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
           >
-            @flowmotion_editing
+            @flowmotion123
           </a>
         </li>
         <li>
@@ -53,7 +53,7 @@ export default function ContactPage() {
             rel="noopener noreferrer"
             style={{ color: "#00cbbf", textDecoration: "underline" }}
           >
-            @flowmotion_ai
+            @flowmotion123
           </a>
         </li>
       </ul>
