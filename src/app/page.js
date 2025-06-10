@@ -1,4 +1,6 @@
 import Link from "next/link";
+import VideoSettings from "@/components/VideoSettings";
+import Tips from "@/components/Tips";
 
 export default function Home() {
   return (
@@ -52,6 +54,8 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <VideoSettings />
+        <Tips />
 
         <div className="cta">
           <button>Try FlowMotion</button>
