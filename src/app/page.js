@@ -1,6 +1,7 @@
 import Link from "next/link";
 import VideoSettings from "@/components/VideoSettings";
 import Tips from "@/components/Tips";
+import AIHelper from "@/components/AIHelper"; // ✅ Import the new component
 
 export default function Home() {
   return (
@@ -54,8 +55,14 @@ export default function Home() {
             </a>
           </div>
         </div>
+
         <VideoSettings />
         <Tips />
+
+        {/* ✅ AI Chat Helper */}
+        <div className="spacer" />
+        <AIHelper />
+        <div className="spacer" />
 
         <div className="cta">
           <button>Try FlowMotion</button>

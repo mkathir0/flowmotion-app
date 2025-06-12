@@ -8,7 +8,7 @@ export default function VideoSettings() {
   useEffect(() => {
     if (fps === 30) setMessage("✅ Smooth playback for standard videos.");
     else if (fps === 48) setMessage("🎬 Great for cinematic slow-motion edits.");
-    else if (fps === 60) setMessage("⚡ Ultra-smooth motion, best for action shots.");
+    else if (fps === 90) setMessage("⚡ Ultra-smooth motion, best for action shots.");
     else setMessage("");
   }, [fps]);
 
