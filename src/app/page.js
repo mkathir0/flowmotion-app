@@ -1,7 +1,11 @@
+"use client";
+import { useState } from "react";
 import Link from "next/link";
 import VideoSettings from "@/components/VideoSettings";
 import Tips from "@/components/Tips";
-import AIHelper from "@/components/AIHelper"; // ✅ Import the new component
+import AIHelper from "@/components/AIHelper";
+import UploadToFirebase from "@/components/UploadToFirebase"; // ✅ Added component for upload
+
 
 export default function Home() {
   return (
@@ -60,9 +64,12 @@ export default function Home() {
         <Tips />
 
         {/* ✅ AI Chat Helper */}
-        <div className="spacer" />
+        
         <AIHelper />
-        <div className="spacer" />
+        
+
+        {/* ✅ Upload to Firebase */}
+        <UploadToFirebase />
 
         <div className="cta">
           <button>Try FlowMotion</button>
